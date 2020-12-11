@@ -46,8 +46,12 @@ public class LoginActivity extends AppCompatActivity  implements View.OnClickLis
         //initialize firebase mAuth
         mAuth = FirebaseAuth.getInstance();
 
+        if(mAuth.getCurrentUser() !=null) {
+            startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+        }
 
-        // loginDetails();
+
+
     }
 
     @Override
