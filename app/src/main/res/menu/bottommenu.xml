@@ -6,11 +6,11 @@
         android:title="DashBoard"
         android:icon="@drawable/dashboard"
         />
-    <item android:id="@+id/income"
+    <item android:id="@+id/manage"
         android:title="Manage Item"
         android:icon="@drawable/manage"
         />
-    <item android:id="@+id/expense"
+    <item android:id="@+id/wishlist"
         android:title="Wishlist"
         android:icon="@drawable/wishlist"
         />
