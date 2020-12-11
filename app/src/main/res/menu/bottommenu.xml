@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/dashboard"
+        android:title="DashBoard"
+        android:icon="@drawable/dashboard"
+        />
+    <item android:id="@+id/income"
+        android:title="Manage Item"
+        android:icon="@drawable/manage"
+        />
+    <item android:id="@+id/expense"
+        android:title="Wishlist"
+        android:icon="@drawable/wishlist"
+        />
+    <item android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/account"
+        />
+
+</menu>
