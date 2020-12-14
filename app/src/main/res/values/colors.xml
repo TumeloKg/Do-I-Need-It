@@ -12,9 +12,9 @@
     <color name="toolbar_color">#FF4081</color>
     <color name="nav_header">#FF4081</color>
 
-    <color name="dashboard_color">#ff9b6309</color>
-    <color name="income_color">#ff240740</color>
-    <color name="expense_color">#ff6c024e</color>
-    <color name="account_color">#ff6600</color>
+    <color name="dashboard_color">#ffffff</color>
+    <color name="income_color">#ffffff</color>
+    <color name="expense_color">#ffffff</color>
+    <color name="account_color">#ffffff</color>
 
 </resources>

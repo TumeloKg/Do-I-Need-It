@@ -20,13 +20,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:text="Welcome, Click floating button to add Items to your Wish list." />
+            android:text="Welcome, Click button to add Items to your Wish list." />
 
 
         <Button
             android:id="@+id/btn_add_item"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="70dp"
             android:layout_marginHorizontal="35dp"
             android:layout_marginVertical="20dp"
             android:padding="8dp"
@@ -37,6 +37,9 @@
 
 
     </LinearLayout>
+
+
+
 
 
 
