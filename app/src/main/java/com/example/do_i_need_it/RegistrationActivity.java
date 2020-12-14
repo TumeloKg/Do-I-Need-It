@@ -167,9 +167,8 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                                public void onComplete(@NonNull Task<Void> task) {
                                    if(task.isSuccessful()){
                                        Toast.makeText(RegistrationActivity.this, "User has been Successfully Created", Toast.LENGTH_LONG).show();
-
                                        //redirect to login screen
-
+                                       startActivity(new Intent(RegistrationActivity.this, LoginActivity.class));
                                    }
                                    else
                                    {
