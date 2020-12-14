@@ -4,6 +4,10 @@
     <string name="password">Password</string>
     <string name="name">Name</string>
     <string name="phone">Phone</string>
+    <string name="title">Title</string>
+    <string name="price">Price</string>
+    <string name="website">Website</string>
+    <string name="location">Location</string>
 
     <string name="navigation_drawer_open">Open Navigation drawer</string>
     <string name="navigation_drawer_close">Close Navigation drawer</string>
