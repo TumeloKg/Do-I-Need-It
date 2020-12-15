@@ -23,7 +23,7 @@ public class AddItemActivity extends AppCompatActivity {
 
     //creating variables
      EditText mTitle, mPrice, mWebsite, mLocation;
-     Button btn_add;
+     Button btn_add_new_item;
 
     DatabaseReference ref;
     Items items;
@@ -37,29 +37,30 @@ public class AddItemActivity extends AppCompatActivity {
         mPrice = (EditText) findViewById(R.id.price);
         mWebsite = (EditText) findViewById(R.id.website);
         mLocation = (EditText) findViewById(R.id.location);
+        btn_add_new_item = (Button) findViewById(R.id.btn_add_new_item);
 
 
         ref = FirebaseDatabase.getInstance().getReference().child("Items");
 
-//        btn_add.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View view) {
-//                insertItemsData();
-//            }
-//        });
+        btn_add_new_item.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                insertItemsData();
+            }
+        });
 
     }
 
-//    private void insertItemsData() {
-//        String title = mTitle.getText().toString();
-//        String price = mPrice.getText().toString();
-//        String website = mWebsite.getText().toString();
-//        String location = mLocation.getText().toString();
-//
-//        Items items = new Items(title, price, website, location);
-//
-//        ref.push().setValue(items);
-//        Toast.makeText(AddItemActivity.this,"Data Inserted", Toast.LENGTH_LONG).show();
-//    }
+    private void insertItemsData() {
+        String title = mTitle.getText().toString();
+        String price = mPrice.getText().toString();
+        String website = mWebsite.getText().toString();
+        String location = mLocation.getText().toString();
+
+        Items items = new Items(title, price, website, location);
+
+        ref.push().setValue(items);
+        Toast.makeText(AddItemActivity.this,"Data Inserted", Toast.LENGTH_LONG).show();
+    }
 }
