@@ -62,5 +62,6 @@ public class AddItemActivity extends AppCompatActivity {
 
         ref.push().setValue(items);
         Toast.makeText(AddItemActivity.this,"Data Inserted", Toast.LENGTH_LONG).show();
+        startActivity(new Intent( AddItemActivity.this, HomeActivity.class));
     }
 }
