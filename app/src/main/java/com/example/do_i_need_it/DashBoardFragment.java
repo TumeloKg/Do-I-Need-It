@@ -15,7 +15,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class DashBoardFragment extends Fragment {
 
-
     //Button
     private Button btn_add_item;
 
