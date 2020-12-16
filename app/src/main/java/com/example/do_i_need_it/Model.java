@@ -6,14 +6,16 @@ class Model {
     private String website;
     private String location;
 
+
+
+    public Model() {
+    }
+
     public Model(String title, String price, String website, String location) {
         this.title = title;
         this.price = price;
         this.website = website;
         this.location = location;
-    }
-
-    public Model() {
     }
 
     public String getTitle() {
